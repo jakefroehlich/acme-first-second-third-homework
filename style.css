@@ -1,0 +1,65 @@
+#app {
+    font-family: sans-serif;
+
+}
+
+.hContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: solid orange 1px;
+    width: 200px;
+    height: 400px;
+    margin: 10px;
+}
+
+.directionbutton {
+    width: 90%;
+    height: 3.5rem;
+    margin: 5px;
+    background-color: slategrey;
+}
+
+
+.nContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    flex-grow: 1;
+}
+
+.active {
+    background-color: red;
+    outline: tomato;
+    display: flex;
+    height: 3.5rem;
+    width: 90%;
+    margin: 5px;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.userDiv {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 3.5rem;
+    width: 90%;
+    background-color: slategray;
+    margin: 5px;
+}
